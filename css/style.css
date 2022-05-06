@@ -1,0 +1,17 @@
+header {
+  background-color: #d11ad1;
+  color: #fff;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ol {
+  margin-left: 120px;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
