@@ -10,95 +10,105 @@
   <body>
     <header>
       <h1>Debrable</h1>
-      <nav>
-        <a href="#Top10">Mi TOP 10 películas</a>
-        <a href="#Viaje">Mi viaje a Japón</a>
-        <a href="#Mensaje">Mándame un mensaje</a>
-      </nav>
     </header>
+    <nav>
+      <a href="#Top10">Mi TOP 10 películas</a>
+      <a href="#Viaje">Mi viaje a Japón</a>
+      <a href="#Mensaje">Mándame un mensaje</a>
+    </nav>
     <main>
-      <article class="blog">
-        <section id="Top10">
-          <h2>MI TOP 10 PELÍCULAS</h2>
-          <ol>
-            <li>El padrino</li>
-            <li>La lista de Schindler</li>
-            <li>El padrino. Parte 2</li>
-            <li>Cadena perpetua</li>
-            <li>Pulp Fiction</li>
-            <li>El rey León</li>
-            <li>Forrest Gump</li>
-            <li>La vide es bella</li>
-            <li>Gladiator</li>
-            <li>Coco</li>
-          </ol>
-        </section>
-        <section id="Viaje">
-          <h2>MI VIAJE A JAPON</h2>
-          <img src="./imagenes/japan.webp" alt="Foto de Japon" />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
-            ducimus tempore totam animi accusamus eaque sunt earum ad mollitia
-            qui ea neque eius laboriosam id, dignissimos quasi illo
-            necessitatibus vitae porro ex. Facere amet beatae error labore sint
-            deleniti libero laboriosam, consequatur illo atque rem temporibus
-            magnam magni corporis, praesentium fuga quod est. Laboriosam labore
-            natus quod repellat facere quas consectetur quasi voluptates nam
-            libero. Sint delectus vel dolorum laborum iure ducimus rerum, esse
-            corrupti minus officia doloribus ad odio dignissimos eos aut saepe.
-            Incidunt, velit accusantium doloribus reprehenderit nam possimus
-            recusandae nostrum natus facilis provident, ea ipsum dicta
-            consequatur?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi saepe
-            maiores fugit nesciunt illo assumenda, nam ab molestias, repudiandae
-            quasi cum quia! Magnam quibusdam perspiciatis provident cum quis
-            voluptate dolorum facilis voluptas, sint quae quia a odit, dolore,
-            facere non quod blanditiis eum ratione mollitia unde accusantium
-            reiciendis earum? Excepturi?
-          </p>
-        </section>
-      </article>
+      <div class="linea">
+        <article class="blog">
+          <section id="Top10">
+            <h2>MI TOP 10 PELÍCULAS</h2>
+            <ol>
+              <li>El padrino</li>
+              <li>La lista de Schindler</li>
+              <li>El padrino. Parte 2</li>
+              <li>Cadena perpetua</li>
+              <li>Pulp Fiction</li>
+              <li>El rey León</li>
+              <li>Forrest Gump</li>
+              <li>La vide es bella</li>
+              <li>Gladiator</li>
+              <li>Coco</li>
+            </ol>
+          </section>
 
-      <aside>
-        <img src="./imagenes/foto.jpg" alt="Foto de Debra Smith" />
-        <h2>DEBRA SMITH</h2>
-        <p>Aquí escribo todo lo que se me ocurre</p>
-        <a href="mailto:debra.smith@example.com">debra.smith@example.com</a>
-      </aside>
-
-      <article id="Mensaje">
-        <h2>MÁNDAME UN MENSAJE</h2>
-        <form action="#">
-          <fieldset>
-            <label for="idNombre">Nombre:</label>
-            <input type="text" name="nameNombre" id="idNombre" required />
-
-            <label for="idEmail">Email:</label>
-            <input type="email" name="nameEmail" id="idEmail" required />
-
-            <label for="idFechaNacimiento">Fecha de nacimiento:</label>
-            <input
-              type="date"
-              name="nameFechaNacimiento"
-              id="idFechaNacimiento"
-              required
+          <section id="Viaje">
+            <h2>MI VIAJE A JAPON</h2>
+            <img
+              src="./imagenes/japan.webp"
+              alt="Foto de Japon"
+              id="fotoJapon"
             />
-          </fieldset>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+              ducimus tempore totam animi accusamus eaque sunt earum ad mollitia
+              qui ea neque eius laboriosam id, dignissimos quasi illo
+              necessitatibus vitae porro ex. Facere amet beatae error labore
+              sint deleniti libero laboriosam, consequatur illo atque rem
+              temporibus magnam magni corporis, praesentium fuga quod est.
+              Laboriosam labore natus quod repellat facere quas consectetur
+              quasi voluptates nam libero. Sint delectus vel dolorum laborum
+              iure ducimus rerum, esse corrupti minus officia doloribus ad odio
+              dignissimos eos aut saepe. Incidunt, velit accusantium doloribus
+              reprehenderit nam possimus recusandae nostrum natus facilis
+              provident, ea ipsum dicta consequatur?
+            </p>
 
-          <fieldset>
-            <input type="text" name="" id="" />
-          </fieldset>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+              saepe maiores fugit nesciunt illo assumenda, nam ab molestias,
+              repudiandae quasi cum quia! Magnam quibusdam perspiciatis
+              provident cum quis voluptate dolorum facilis voluptas, sint quae
+              quia a odit, dolore, facere non quod blanditiis eum ratione
+              mollitia unde accusantium reiciendis earum? Excepturi?
+            </p>
+          </section>
+        </article>
 
-          <fieldset>
-            <input type="checkbox" name="" id="" />
-          </fieldset>
+        <aside>
+          <img src="./imagenes/foto.jpg" alt="Foto de Debra Smith" />
+          <h2>DEBRA SMITH</h2>
+          <p>Aquí escribo todo lo que se me ocurre</p>
+          <a href="mailto:debra.smith@example.com">debra.smith@example.com</a>
+        </aside>
+      </div>
 
+      <form id="Mensaje" action="#">
+        <legend><h2>MÁNDAME UN MENSAJE</h2></legend>
+        <fieldset>
+          <label for="idNombre">Nombre:</label>
+          <input type="text" name="nameNombre" id="idNombre" required />
+
+          <label for="idEmail">Email:</label>
+          <input type="email" name="nameEmail" id="idEmail" required />
+
+          <label for="idFechaNacimiento">Fecha de nacimiento:</label>
+          <input
+            type="date"
+            name="nameFechaNacimiento"
+            id="idFechaNacimiento"
+            required
+          />
+        </fieldset>
+
+        <fieldset>
+          <label for="idURL">Texto</label>
+          <textarea name="" id="idUrl" rows="2" cols="90" /></textarea>
+        </fieldset>
+
+        <fieldset>
+          <input type="checkbox" name="" id="checkboxId" />
+          <label for="checkboxId">Acepto los terminos y condiciones</label>
           <button type="submit">Enviar</button>
-        </form>
-      </article>
+        </fieldset>
+
+       
+      </form>
     </main>
+
     <footer>
       <a href="#Terminos">Terminos y condiciones</a>
       |
